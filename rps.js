@@ -1,4 +1,5 @@
 let humanScore=0, computerScore=0;
+alert("Welcome to the game of Rock, Paper, Scissors!");
 playGame();
 
 function getRandomNum(min,max){
@@ -25,8 +26,6 @@ function getHumanChoice(){
   return userInput;
 }
 
-console.log("Human choice is "+humanChoice);
-console.log("Computer choice is "+computerChoice);
 
 
 
